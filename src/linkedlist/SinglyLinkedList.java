@@ -6,5 +6,10 @@ public class SinglyLinkedList
     {
         private int data;
         private Node next;
+        public Node()
+        {
+            this.data=data;
+            this.next=null;
+        }
     }
 }
